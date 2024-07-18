@@ -1,3 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+
+
+
 
 # To prevent access to .env and other files
 <Files .*>
@@ -13,5 +22,5 @@ Require all denied
 </Files>
 
 <IfModule mod_alias.c>
-RedirectMatch 301 ^/$ http://mmkabayan.com/advpos/public
+RedirectMatch 301 ^/$ http://gfi-edu.com/cims/public
 </IfModule>
