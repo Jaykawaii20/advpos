@@ -13,5 +13,5 @@ Require all denied
 </Files>
 
 <IfModule mod_alias.c>
-RedirectMatch 301 ^/$ http://mmkabayan.com/mmkabayanpos/public
+RedirectMatch 301 ^/$ http://mmkabayan.com/mkkabayanpos/public
 </IfModule>
