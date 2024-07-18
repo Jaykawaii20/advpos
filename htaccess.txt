@@ -8,6 +8,7 @@
 
 
 
+
 # To prevent access to .env and other files
 <Files .*>
 # Apache 2.2
@@ -22,5 +23,5 @@ Require all denied
 </Files>
 
 <IfModule mod_alias.c>
-RedirectMatch 301 ^/$ http://gfi-edu.com/cims/public
+RedirectMatch 301 ^/$ http://mmkabayan.com/mkkabayanpos/public
 </IfModule>
